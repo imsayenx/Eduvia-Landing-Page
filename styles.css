@@ -58,7 +58,7 @@ header.scrolled{box-shadow:0 4px 18px var(--shadow)}
  object-position:center right;
  z-index:0;
  display:block;
- filter:brightness(.65)
+ filter:brightness(.45)
 }
 .hero .wrap{
  display:grid;
