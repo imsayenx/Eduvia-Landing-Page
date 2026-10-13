@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#08111f" media="(prefers-color-scheme: dark)">
+<title>Eduvia | Aprende hoy. Construye el futuro que imaginas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Caveat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+<header id="top">
+ <div class="wrap nav">
+  <a href="#inicio" class="logo"><img src="Imagenes/lOGO_SIN_FONDO-removebg-preview.png" alt="Logo de Eduvia" class="logo-img"></a>
+  <button class="burger" id="burger" aria-label="Abrir menú">☰</button>
+  <nav class="menu" id="menu">
+   <a href="#inicio" class="active">Inicio</a><a href="#cursos">Cursos</a><a href="#como">Cómo funciona</a>
+   <a href="#beneficios">Beneficios</a><a href="#testimonios">Testimonios</a><a href="#faq">Preguntas frecuentes</a>
+  </nav>
+  <div class="nav-cta"><a href="#" class="btn btn-l">Iniciar sesión</a><a href="#registro" class="btn btn-p sm">Comenzar gratis →</a></div>
+ </div>
+</header>
+<section class="hero" id="inicio">
+ <img src="Imagenes/Principal.png" alt="Estudiante aprendiendo en su computadora" class="hero-bg">
+
+ <div class="wrap">
+  <div>
+   <span class="eyebrow">Aprende · Explora · Avanza</span>
+   <h1>Aprende hoy. Construye el futuro <span>que imaginas.</span></h1>
+   <p>Una nueva forma de aprender: cursos interactivos, experiencias prácticas y herramientas diseñadas para que desarrolles habilidades a tu propio ritmo.</p>
+   <div class="btns"><a href="#registro" class="btn btn-p">Comenzar gratis →</a><a href="#cursos" class="btn btn-o">Explorar cursos</a></div>
+  </div>
+  <div class="hero-art">
+  </div>
+ </div>
+</section>
+
+<div class="stats">
+  <div class="wrap">
+
+    <div class="stat">
+      <div class="ico">
+        <i class="bi bi-people-fill"></i>
+      </div>
+      <div>
+        <b data-n="10000">+10,000</b>
+        <small>estudiantes</small>
+      </div>
+    </div>
+
+    <div class="stat">
+      <div class="ico">
+        <i class="bi bi-mortarboard-fill"></i>
+      </div>
+      <div>
+        <b data-n="250">+250</b>
+        <small>cursos</small>
+      </div>
+    </div>
+
+    <div class="stat">
+      <div class="ico">
+        <i class="bi bi-grid-fill"></i>
+      </div>
+      <div>
+        <b data-n="40" data-s="+">40+</b>
+        <small>categorías</small>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<section class="why" id="beneficios">
+  <div class="wrap">
+
+    <div>
+      <span class="eyebrow">¿Por qué Eduvia?</span>
+      <h2>Aprender puede ser diferente.</h2>
+      <p class="lead">
+        Eduvia combina tecnología, contenido educativo y experiencias
+        interactivas para transformar la manera en que aprendes.
+      </p>
+    </div>
+
+    <div class="cards4">
+
+      <div class="card">
+        <div class="ico">
+          <i class="bi bi-moon-stars"></i>
+        </div>
+        <h3>Aprende a tu ritmo</h3>
+        <p>Tú decides cuándo, dónde y cómo aprender.</p>
+      </div>
+
+      <div class="card">
+        <div class="ico">
+          <i class="bi bi-journal-bookmark"></i>
+        </div>
+        <h3>Contenido que realmente enseña</h3>
+        <p>Cursos diseñados por expertos en cada área.</p>
+      </div>
+
+      <div class="card">
+        <div class="ico">
+          <i class="bi bi-joystick"></i>
+        </div>
+        <h3>Aprendizaje interactivo</h3>
+        <p>Videos, simulaciones y retos que te mantienen motivado.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cats" id="categorias">
+  <div class="wrap">
+
+    <div class="head">
+      <div>
+        <span class="eyebrow">Categorías</span>
+        <h2>Encuentra algo que quieras aprender</h2>
+      </div>
+      <a href="#cursos">Ver todas las categorías →</a>
+    </div>
+
+    <div class="catgrid">
+
+      <div class="cat" data-f="Matemáticas">
+        <div class="ico" style="background:#e6dcff; color:#6d3bd1;">
+          <i class="bi bi-calculator"></i>
+        </div>
+        <div>
+          <b>Matemáticas</b>
+          <small>12 cursos</small>
+        </div>
+      </div>
+
+      <div class="cat" data-f="Ciencias">
+  <div class="ico" style="background:#d4f5e4; color:#198754;">
+<i class="bi bi-moisture"></i>  </div>
+  <div>
+    <b>Ciencias</b>
+    <small>10 cursos</small>
+  </div>
+</div>
+
+      <div class="cat" data-f="Tecnología">
+        <div class="ico" style="background:#d6f0fb; color:#087eaa;">
+          <i class="bi bi-pc-display"></i>
+        </div>
+        <div>
+          <b>Tecnología</b>
+          <small>8 cursos</small>
+        </div>
+      </div>
+
+      <div class="cat" data-f="Programación">
+        <div class="ico" style="background:#d9e8ff; color:#245ac4;">
+          <i class="bi bi-file-earmark-code"></i>
+        </div>
+        <div>
+          <b>Programación</b>
+          <small>14 cursos</small>
+        </div>
+      </div>
+
+      <div class="cat" data-f="Inglés">
+        <div class="ico" style="background:#ead9ff; color:#7b35b8;">
+          <i class="bi bi-translate"></i>
+        </div>
+        <div>
+          <b>Inglés</b>
+          <small>16 cursos</small>
+        </div>
+      </div>
+
+      <div class="cat" data-f="Historia">
+        <div class="ico" style="background:#ffe9c9; color:#a65d12;">
+          <i class="bi bi-bank"></i>
+        </div>
+        <div>
+          <b>Historia</b>
+          <small>9 cursos</small>
+        </div>
+      </div>
+
+      <div class="cat" data-f="Diseño">
+        <div class="ico" style="background:#ffd9e6; color:#c02f68;">
+          <i class="bi bi-easel2"></i>
+        </div>
+        <div>
+          <b>Diseño</b>
+          <small>7 cursos</small>
+        </div>
+      </div>
+
+      <div class="cat" data-f="Negocios">
+        <div class="ico" style="background:#d2f3ee; color:#087f70;">
+          <i class="bi bi-briefcase"></i>
+        </div>
+        <div>
+          <b>Negocios</b>
+          <small>11 cursos</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="cursos">
+ <div class="wrap">
+  <div class="head"><div><span class="eyebrow">Cursos destacados</span><h2>Desarrolla habilidades que abren nuevas oportunidades</h2></div><a href="#cursos">Ver todos los cursos →</a></div>
+  <div class="tabs" id="tabs">
+   <button class="tab on" data-f="all">Todos</button><button class="tab" data-f="Programación">Programación</button><button class="tab" data-f="Inglés">Inglés</button><button class="tab" data-f="Diseño">Diseño</button><button class="tab" data-f="Ciencias">Ciencias</button><button class="tab" data-f="Marketing">Marketing</button>
+  </div>
+  <div class="courses" id="courses">
+
+<!-- Curso 1: Programación Web -->
+<article class="course" data-c="Programación">
+  <div class="thumb">
+    <img src="Imagenes/Programación web.jpg"
+         alt="Desarrollo y programación web">
+    <span>Programación</span>
+  </div>
+  <div class="cbody">
+    <h3>Programación Web</h3>
+    <small>Nivel: Básico · 6h</small>
+    <div class="rate"><i>★</i> 4.8 (2.1k)</div>
+    <a href="#" class="btn btn-p">Ver curso →</a>
+  </div>
+</article>
+
+<!-- Curso 2: Inteligencia Artificial -->
+<article class="course" data-c="Programación">
+  <div class="thumb">
+    <img src="Imagenes/Inteligencia Artificial.jpg"
+         alt="Inteligencia artificial y tecnología">
+    <span>Inteligencia Artificial</span>
+  </div>
+  <div class="cbody">
+    <h3>Inteligencia Artificial</h3>
+    <small>Nivel: Intermedio · 8h</small>
+    <div class="rate"><i>★</i> 4.9 (1.8k)</div>
+    <a href="#" class="btn btn-p">Ver curso →</a>
+  </div>
+</article>
+
+<!-- Curso 3: Inglés -->
+<article class="course" data-c="Inglés">
+  <div class="thumb">
+    <img src="Imagenes/Ingles.jpg" alt="Aprendizaje del idioma inglés">
+    <span>Inglés</span>
+  </div>
+  <div class="cbody">
+    <h3>Inglés para principiantes</h3>
+    <small>Nivel: Básico · 4.5h</small>
+    <div class="rate"><i>★</i> 4.7 (1.2k)</div>
+    <a href="#" class="btn btn-p">Ver curso →</a>
+  </div>
+</article>
+
+<!-- Curso 4: Diseño Digital -->
+<article class="course" data-c="Diseño">
+  <div class="thumb">
+    <img src="Imagenes/Diseño digital.jpg"
+         alt="Diseño gráfico y creatividad digital">
+    <span>Diseño</span>
+  </div>
+  <div class="cbody">
+    <h3>Diseño Digital</h3>
+    <small>Nivel: Básico · 6h</small>
+    <div class="rate"><i>★</i> 4.6 (900)</div>
+    <a href="#" class="btn btn-p">Ver curso →</a>
+  </div>
+</article>
+
+<!-- Curso 5: Ciencias -->
+<article class="course" data-c="Ciencias">
+  <div class="thumb">
+    <img src="Imagenes/Ciencia y tecnología.jpg"
+         alt="Experimentos científicos y tecnología">
+    <span>Ciencias</span>
+  </div>
+  <div class="cbody">
+    <h3>Ciencia y Tecnología</h3>
+    <small>Nivel: Básico · 5h</small>
+    <div class="rate"><i>★</i> 4.8 (1.5k)</div>
+    <a href="#" class="btn btn-p">Ver curso →</a>
+  </div>
+</article>
+
+<!-- Curso 6: Marketing Digital -->
+<article class="course" data-c="Marketing">
+  <div class="thumb">
+    <img src="Imagenes/Marketing digital.jpg"
+         alt="Marketing digital y análisis de datos">
+    <span>Marketing</span>
+  </div>
+  <div class="cbody">
+    <h3>Marketing Digital</h3>
+    <small>Nivel: Intermedio · 7h</small>
+    <div class="rate"><i>★</i> 4.7 (1.3k)</div>
+    <a href="#" class="btn btn-p">Ver curso →</a>
+  </div>
+</article>
+  </div>
+  <div class="center"><a href="#" class="btn btn-l">Explorar todos los cursos →</a></div>
+ </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Experiencias educativas</span>
+      <h2>No solo estudias. <span>Aprende haciendo.</span></h2>
+      <p>
+        Convierte el conocimiento en experiencia mediante actividades
+        diseñadas para practicar, experimentar y resolver problemas reales.
+      </p>
+    </div>
+
+    <div class="pills">
+      <div class="pill">
+        <i class="bi bi-play-circle"></i>
+        Videos interactivos
+      </div>
+
+      <div class="pill">
+        <i class="bi bi-trophy"></i>
+        Retos
+      </div>
+
+      <div class="pill">
+        <i class="bi bi-journal-check"></i>
+        Ejercicios prácticos
+      </div>
+
+      <div class="pill">
+        <i class="bi bi-check-circle"></i>
+        Evaluaciones
+      </div>
+
+      <div class="pill">
+        <i class="bi bi-box"></i>
+        Simulaciones
+      </div>
+
+      <div class="pill">
+        <i class="bi bi-book"></i>
+        Recursos educativos
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="como">
+ <div class="wrap">
+  <span class="eyebrow">Cómo funciona</span><h2>Empieza a aprender en 4 pasos</h2>
+  <div class="steps">
+   <div class="step"><div class="num">01</div><div><b>Elige</b><small>Encuentra el curso que se adapte a tus objetivos.</small></div></div>
+   <div class="step"><div class="num">02</div><div><b>Aprende</b><small>Accede a contenido dinámico y fácil de comprender.</small></div></div>
+   <div class="step"><div class="num">03</div><div><b>Practica</b><small>Pon tus conocimientos en acción.</small></div></div>
+   <div class="step"><div class="num">04</div><div><b>Crece</b><small>Completa tus cursos y demuestra tus nuevas habilidades.</small></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="cta1" id="registro">
+ <img src="Imagenes/Secundario.png" alt="Fondo de la sección Tu mejor versión" class="cta1-bg">
+
+ <div class="wrap">
+  <div><span class="eyebrow" style="color:var(--cyan)">Tu mejor versión</span><h2>Tu próxima meta <span>comienza con una decisión.</span></h2>
+   <p>Empieza a desarrollar nuevas habilidades con Eduvia y convierte cada hora de aprendizaje en una oportunidad para crecer.</p>
+   <a href="#" class="btn btn-p">Comenzar a aprender gratis →</a></div>
+ </div>
+</section>
+
+<section id="testimonios">
+ <div class="wrap">
+  <span class="eyebrow">Testimonios</span><h2>Ellos ya están aprendiendo diferente</h2>
+  <div class="tgrid">
+   <div class="t"><div class="av" style="background:#d9729b">SL</div><div><b>Samaire Looriee</b><small>Estudiante de Ingeniería</small><p>"Eduvia me ha ayudado a mejorar mis habilidades y a conseguir mejores oportunidades en mi carrera."</p><span class="s">★★★★★</span></div></div>
+   <div class="t"><div class="av" style="background:#3a7bd5">JH</div><div><b>Jeffrey Howard</b><small>Desarrollador Web</small><p>"La plataforma es increíble, los cursos son súper prácticos y el contenido es de gran calidad."</p><span class="s">★★★★★</span></div></div>
+   <div class="t"><div class="av" style="background:#e08a3c">GP</div><div><b>Génesis Paz</b><small>Diseñadora Gráfica</small><p>"Gracias a Eduvia pude aprender diseño desde cero y ahora trabajo en lo que amo."</p><span class="s">★★★★★</span></div></div>
+  </div>
+ </div>
+</section>
+
+
+<section class="faq" id="faq">
+ <div class="wrap">
+  <div><span class="eyebrow">Preguntas frecuentes</span><h2>Preguntas frecuentes</h2></div>
+  <div class="faqgrid">
+   <div class="q"><button>¿Eduvia es gratis?</button><div>Puedes empezar gratis con cursos seleccionados y pasar a contenido premium cuando quieras.</div></div>
+   <div class="q"><button>¿Puedo estudiar desde mi celular?</button><div>Sí, la plataforma funciona en cualquier dispositivo, con o sin conexión en cursos descargables.</div></div>
+   <div class="q"><button>¿Cómo puedo comenzar?</button><div>Crea tu cuenta gratis, elige un curso y comienza a aprender en minutos.</div></div>
+   <div class="q"><button>¿Qué cursos puedo encontrar?</button><div>Más de 250 cursos en 40 categorías: programación, idiomas, diseño, ciencias y más.</div></div>
+   <div class="q"><button>¿Puedo avanzar a mi propio ritmo?</button><div>Por supuesto. Tú decides cuándo y cuánto estudiar.</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="final">
+ <img src="Imagenes/CTA FINAL.png" alt="Fondo del llamado a la acción" class="final-bg">
+
+ <div class="wrap">
+  <div><h2>El conocimiento no tiene límites.</h2><p>Empieza hoy a construir nuevas habilidades.</p><a href="#" class="btn btn-p">Crear mi cuenta gratis →</a></div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <div class="fgrid">
+   <div><a href="#" class="logo"><img src="Imagenes/lOGO_SIN_FONDO-removebg-preview.png" alt="Logo de Eduvia" class="logo-img"></a><p style="margin-top:8px">Aprende hoy. Construye mañana.</p></div>
+   <div><h4>Plataforma</h4><ul><li><a href="#inicio">Inicio</a></li><li><a href="#cursos">Cursos</a></li><li><a href="#como">Cómo funciona</a></li><li><a href="#beneficios">Beneficios</a></li></ul></div>
+   <div><h4>Recursos</h4><ul><li><a href="#">Blog</a></li><li><a href="#">Guías</a></li><li><a href="#">Recursos gratuitos</a></li><li><a href="#">Materiales</a></li></ul></div>
+   <div><h4>Comunidad</h4><ul><li><a href="#">Foro</a></li><li><a href="#">Eventos</a></li><li><a href="#">Historias de éxito</a></li><li><a href="#">Aliados</a></li></ul></div>
+   <div><h4>Ayuda</h4><ul><li><a href="#">Términos de servicio</a></li><li><a href="#">Privacidad</a></li><li><a href="#">Contacto</a></li></ul></div>
+<div class="social">
+ <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+ <a href="#" aria-label="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+ <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+ <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+</div>  </div>
+<p class="copy"><i class="bi bi-c-circle"></i> 2025 Eduvia. Todos los derechos reservados.</p> </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
